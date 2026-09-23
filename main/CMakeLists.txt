@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS
+        "ATECC608A_HSM.cpp"
+        "HSMService.cpp"
+    INCLUDE_DIRS
+        "."
+    REQUIRES
+        esp-cryptoauthlib
+)
